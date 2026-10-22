@@ -12,7 +12,7 @@ Papa.parse('Space_Corrected(in).csv', {
       const tr = document.createElement('tr');
  
       tr.innerHTML = `
-        <td>${row.Unnamed}</td>
+        <td>${row.id}</td>
         <td>${row.CompanyName}</td>
         <td>${row.Location}</td>
         <td>${row.Datum}</td>
