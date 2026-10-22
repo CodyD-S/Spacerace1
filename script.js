@@ -17,9 +17,9 @@ Papa.parse('Space_Corrected(in).csv', {
         <td>${row.Location}</td>
         <td>${row.Datum}</td>
         <td>${row.Detail}</td>
-        <td>${row.Status Rocket}</td>
+        <td>${row.StatusRocket}</td>
         <td>${row.Rocket}</td>
-        <td>${row.Status Mission}</td>
+        <td>${row.StatusMission}</td>
       `;
  
       tbody.appendChild(tr); 
