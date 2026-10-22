@@ -12,11 +12,14 @@ Papa.parse('musicrevenue.csv', {
       const tr = document.createElement('tr');
  
       tr.innerHTML = `
-        <td>${row.Platform}</td>
-        <td>${row.PayoutPerStreamUSD}</td>
-        <td>${row.MonthlyUsersMillions}</td>
-        <td>${row.Type}</td>
-        <td>${row.StreamsForUSMonthlyMinimumWage}</td>
+        <td>${row.unnamed}</td>
+        <td>${row.Company Name}</td>
+        <td>${row.Location}</td>
+        <td>${row.Datum}</td>
+        <td>${row.Detail}</td>
+        <td>${row.Status Rocket}</td>
+        <td>${row.Rocket}</td>
+        <td>${row.Status Mission}</td>
       `;
  
       tbody.appendChild(tr); 
