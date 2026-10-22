@@ -1,1 +1,31 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Revenue Data</title>
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Space race data</h1>
+  <table id="dataTable">
+    <thead>
+      <tr>
+        <th>Unamed</th>
+        <th>Company Name</th>
+        <th>Location</th>
+        <th>Datum</th>
+        <th>Detial</th>
+        <th>Status Rocket</th>
+        <th>Rocket</th>
+        <th>Status Mission</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <p>Data from <a href='https://artistpayout.com'>Artist Payout</a></p>
+</body>
+</html>
