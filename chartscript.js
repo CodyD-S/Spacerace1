@@ -20,7 +20,7 @@ Papa.parse('Space_Corrected(in).csv', {
         data: {
           labels: labels,
           datasets: [{
-            label: 'Status of Rocket',
+            label: 'Launch Cost($)',
             data: values,
             backgroundColor: '#4e79a7'
           }]
@@ -31,7 +31,7 @@ Papa.parse('Space_Corrected(in).csv', {
               type: 'linear',
               title: {
                 display: true,
-                text: 'Status of Rocket'
+                text: 'Launch Cost($)'
               }
             }
           }
